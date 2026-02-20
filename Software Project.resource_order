@@ -1,8 +1,9 @@
 {
   "FolderOrderSettings":[
-    {"name":"TileSets","order":3,"path":"folders/TileSets.yy",},
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"Rooms","order":4,"path":"folders/Rooms.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"TileSets","order":3,"path":"folders/TileSets.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"spr_floorTiles","order":1,"path":"sprites/spr_floorTiles/spr_floorTiles.yy",},
