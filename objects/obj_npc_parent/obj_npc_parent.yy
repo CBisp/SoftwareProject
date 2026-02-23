@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npcParent",
+  "%Name":"obj_npc_parent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_npcParent",
+  "name":"obj_npc_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"npcs",

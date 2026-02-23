@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc1",
+  "%Name":"obj_npc_turtle",
   "eventList":[],
   "managed":true,
-  "name":"obj_npc1",
+  "name":"obj_npc_turtle",
   "overriddenProperties":[],
   "parent":{
     "name":"npcs",
     "path":"folders/Objects/npcs.yy",
   },
   "parentObjectId":{
-    "name":"obj_npcParent",
-    "path":"objects/obj_npcParent/obj_npcParent.yy",
+    "name":"obj_npc_parent",
+    "path":"objects/obj_npc_parent/obj_npc_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc1",
-    "path":"sprites/spr_npc1/spr_npc1.yy",
+    "name":"spr_npc_turtle",
+    "path":"sprites/spr_npc_turtle/spr_npc_turtle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

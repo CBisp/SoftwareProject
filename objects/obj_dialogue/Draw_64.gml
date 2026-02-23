@@ -3,7 +3,6 @@ var _dy = gui_h * 0.7;
 var _boxw = gui_w;
 var _boxh = gui_h - _dy;
 
-obj_player.image_alpha = 0.5;
 draw_sprite_stretched(spr_dialogue, 0, _dx, _dy, _boxw, _boxh);
 
 _dx += 16;

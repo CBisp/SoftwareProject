@@ -11,9 +11,11 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_dialogue","order":2,"path":"objects/obj_dialogue/obj_dialogue.yy",},
-    {"name":"obj_npc1","order":1,"path":"objects/obj_npc1/obj_npc1.yy",},
+    {"name":"obj_npc_flying_fish","order":1,"path":"objects/obj_npc_flying_fish/obj_npc_flying_fish.yy",},
+    {"name":"obj_npc_turtle","order":2,"path":"objects/obj_npc_turtle/obj_npc_turtle.yy",},
     {"name":"spr_dialogue","order":3,"path":"sprites/spr_dialogue/spr_dialogue.yy",},
     {"name":"spr_floorTiles","order":1,"path":"sprites/spr_floorTiles/spr_floorTiles.yy",},
+    {"name":"spr_npc_turtle","order":2,"path":"sprites/spr_npc_turtle/spr_npc_turtle.yy",},
     {"name":"spr_talking","order":1,"path":"sprites/spr_talking/spr_talking.yy",},
   ],
 }
