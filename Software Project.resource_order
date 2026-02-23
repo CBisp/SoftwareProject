@@ -1,16 +1,18 @@
 {
   "FolderOrderSettings":[
-    {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
+    {"name":"Fonts","order":6,"path":"folders/Fonts.yy",},
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
     {"name":"npcs","order":1,"path":"folders/Objects/npcs.yy",},
     {"name":"Rooms","order":4,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"npcs","order":2,"path":"folders/Sprites/npcs.yy",},
     {"name":"TileSets","order":3,"path":"folders/TileSets.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"obj_dialogueBox","order":2,"path":"objects/obj_dialogueBox/obj_dialogueBox.yy",},
+    {"name":"obj_dialogue","order":2,"path":"objects/obj_dialogue/obj_dialogue.yy",},
     {"name":"obj_npc1","order":1,"path":"objects/obj_npc1/obj_npc1.yy",},
+    {"name":"spr_dialogue","order":3,"path":"sprites/spr_dialogue/spr_dialogue.yy",},
     {"name":"spr_floorTiles","order":1,"path":"sprites/spr_floorTiles/spr_floorTiles.yy",},
     {"name":"spr_talking","order":1,"path":"sprites/spr_talking/spr_talking.yy",},
   ],

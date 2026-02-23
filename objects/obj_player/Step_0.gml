@@ -1,20 +1,23 @@
-xSpeed = (keyboard_check(vk_right)-keyboard_check(vk_left)) * moveSpeed;
-if (keyboard_check_pressed(vk_space) and state = "grounded"){
-    ySpeed = ySpeed - 4
-    state = "airborn";
-}
 
-if (!place_meeting(x + xSpeed, y, collision_tiles)){
-    x = x + xSpeed;
-} 
-
-if (!place_meeting(x, y + ySpeed + yGravity, collision_tiles)){
-    y = y + ySpeed; 
-    if (ySpeed < 3){
-       ySpeed = ySpeed + yGravity; 
+if (!talking){
+    xSpeed = (keyboard_check(vk_right)-keyboard_check(vk_left)) * moveSpeed;
+    if (keyboard_check_pressed(vk_space) and state = "grounded"){
+        ySpeed = ySpeed - 4;
+        state = "airborn";
     }
     
-} else {
-    ySpeed = 0;
-    state = "grounded";
-}
+    if (!place_meeting(x + xSpeed, y, collision_tiles)){
+        x = x + xSpeed;
+    } 
+    
+    if (!place_meeting(x, y + ySpeed + yGravity, collision_tiles)){
+        y = y + ySpeed; 
+        if (ySpeed < 3){
+           ySpeed = ySpeed + yGravity; 
+        }
+        
+    } else {
+        ySpeed = 0;
+        state = "grounded";
+    }
+}    
