@@ -9,7 +9,6 @@ function create_dialogue(_messages){
     
 }
 
-
 // works similarly to console.log in javascript
 function console(){
     if argument_count > 0{
@@ -36,5 +35,20 @@ test_dialogue = [
     {
         name: "Crab",
         msg: "Bit greedy methinks"
+    }
+]
+
+turtle_dialogue = [
+    {
+       name: "Crab",
+       msg: "Woah, you're a turtle?" 
+    },
+    {
+        name: "Turtle",
+        msg: "Yessir and an awesome one at that"
+    },
+    {
+        name:"Crab",
+        msg: "Golly gosh sir that's incredible"
     }
 ]
