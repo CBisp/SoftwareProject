@@ -6,9 +6,8 @@ if (!talking){
         state = "airborn";
     }
     
-    if (!place_meeting(x + xSpeed, y, collision_tiles)){
-        x = x + xSpeed;
-    } 
+    move_and_collide(xSpeed,0,collision_tiles)
+    
     
     if (!place_meeting(x, y + ySpeed + yGravity, collision_tiles)){
         y = y + ySpeed; 

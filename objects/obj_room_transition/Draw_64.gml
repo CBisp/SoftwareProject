@@ -1,0 +1,1 @@
+draw_sprite_tiled(spr_room_transition, -1, 0, 0)

@@ -3,7 +3,7 @@ var _dy = gui_h * 0.7;
 var _boxw = gui_w;
 var _boxh = gui_h - _dy;
 
-draw_sprite_stretched(spr_dialogue, 0, _dx, _dy, _boxw, _boxh);
+draw_sprite_stretched(spr_dialogue, 0, _dx, _dy, _boxw, _boxh - 140);
 
 _dx += 16;
 _dy += 16;
@@ -14,4 +14,4 @@ draw_text(_dx, _dy, _name);
 
 _dy += 40;
 
-draw_text_ext(_dx, _dy, draw_message, -1, _boxw - _dx * 2); 
+draw_text_ext(_dx, _dy, draw_message, -1, _boxw); 

@@ -5,8 +5,6 @@ function create_dialogue(_messages){
     var _inst = instance_create_depth(0, 0, 0, obj_dialogue);
     _inst.messages = _messages;
     _inst.current_message = 0;
-    
-    
 }
 
 // works similarly to console.log in javascript
@@ -50,5 +48,12 @@ turtle_dialogue = [
     {
         name:"Crab",
         msg: "Golly gosh sir that's incredible"
+    }
+]
+
+sign1 = [
+    {
+        name: "Helpful Sign",
+        msg: "Left: Crab's house. Right: Coral Reef"
     }
 ]
