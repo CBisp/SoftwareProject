@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_background_tiles",
   "bboxMode":0,
-  "bbox_bottom":95,
+  "bbox_bottom":127,
   "bbox_left":16,
   "bbox_right":111,
   "bbox_top":0,

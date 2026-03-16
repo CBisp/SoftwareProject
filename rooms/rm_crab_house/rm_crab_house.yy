@@ -8,6 +8,7 @@
   "instanceCreationOrder":[
     {"name":"inst_2E42FE01","path":"rooms/rm_crab_house/rm_crab_house.yy",},
     {"name":"inst_2C3E80AA","path":"rooms/rm_crab_house/rm_crab_house.yy",},
+    {"name":"inst_2D10FFC6","path":"rooms/rm_crab_house/rm_crab_house.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -18,6 +19,9 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door_parent","path":"objects/obj_door_parent/obj_door_parent.yy",},"propertyId":{"name":"targetY","path":"objects/obj_door_parent/obj_door_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"487",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":192.0,},
         {"$GMRInstance":"v4","%Name":"inst_2C3E80AA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C3E80AA","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":208.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2D10FFC6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D10FFC6","objectId":{"name":"obj_dialogue_trigger","path":"objects/obj_dialogue_trigger/obj_dialogue_trigger.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogue_trigger","path":"objects/obj_dialogue_trigger/obj_dialogue_trigger.yy",},"propertyId":{"name":"dialogue","path":"objects/obj_dialogue_trigger/obj_dialogue_trigger.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.crabThoughtHouse",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":240.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"collisionTiles","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"collisionTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":18,"TileCompressedData":[
           -36,-2147483648,1,2,-15,-2147483648,3,14,2,2,-15,-2147483648,3,0,2,2,-15,-2147483648,3,0,2,2,-15,-2147483648,

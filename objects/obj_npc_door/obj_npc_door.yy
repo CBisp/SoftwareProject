@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sign",
+  "%Name":"obj_npc_door",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_sign",
+  "name":"obj_npc_door",
   "overriddenProperties":[],
   "parent":{
-    "name":"world objects",
-    "path":"folders/Objects/world objects.yy",
+    "name":"npcs",
+    "path":"folders/Objects/npcs.yy",
   },
   "parentObjectId":{
     "name":"obj_npc_parent",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sign",
-    "path":"sprites/spr_sign/spr_sign.yy",
+    "name":"spr_door_locked",
+    "path":"sprites/spr_door_locked/spr_door_locked.yy",
   },
   "spriteMaskId":null,
   "visible":true,

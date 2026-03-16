@@ -6,5 +6,7 @@ draw_message = "";
 char_speed = 0.5;
 input_key = "Z"
 
+obj_player.talking = true;
+
 gui_w = display_get_gui_width/2;
 gui_h = display_get_gui_height/2;

@@ -57,3 +57,51 @@ sign1 = [
         msg: "Left: Crab's house. Right: Coral Reef"
     }
 ]
+
+doorLocked1 = [
+    {
+        name: "Locked Door",
+        msg: "The reef is closed due to poor conditions. There is far too much plastic around for it to be safe."
+    },
+    {
+        name: "Locked Door",
+        msg: "We apologise for any inconvenience caused - management"
+    },
+    {
+        name: "Crab",
+        msg: "This plastic is really getting on my nerves. I should try to clear more of it up."
+    },
+    {
+        name: "Crab",
+        msg: "There's probably a lot more plastic over by the Mushroom Fields. I hope my friend Turtle is ok"
+    },
+]
+
+doorLocked2 = [
+    {
+        name: "Locked Door",
+        msg: "The reef is closed due to poor conditions. There is far too much plastic around for it to be safe."
+    },
+    {
+        name: "Locked Door",
+        msg: "We apologise for any inconvenience caused - management"
+    },
+    {
+        name: "Crab",
+        msg: "I should head to the Mushroom Fields"
+    }
+]
+
+signMushroomFields = [
+    {
+        name: "Helpful Sign",
+        msg: "Up and Right: Mushroom Fields"
+    }
+]
+
+crabThoughtHouse = [
+    {
+        name: "Crab",
+        msg: "Ah, what a beautiful day. I should go and visit my friends in the coral reef"
+    }
+]
