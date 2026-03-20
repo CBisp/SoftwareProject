@@ -2,6 +2,7 @@
   "FolderOrderSettings":[
     {"name":"Fonts","order":6,"path":"folders/Fonts.yy",},
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"controller objects","order":8,"path":"folders/Objects/controller objects.yy",},
     {"name":"npcs","order":1,"path":"folders/Objects/npcs.yy",},
     {"name":"world objects","order":7,"path":"folders/Objects/world objects.yy",},
     {"name":"Rooms","order":4,"path":"folders/Rooms.yy",},
@@ -14,13 +15,13 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_dialogue_trigger","order":4,"path":"objects/obj_dialogue_trigger/obj_dialogue_trigger.yy",},
-    {"name":"obj_dialogue","order":3,"path":"objects/obj_dialogue/obj_dialogue.yy",},
+    {"name":"obj_dialogue","order":1,"path":"objects/obj_dialogue/obj_dialogue.yy",},
     {"name":"obj_door_parent","order":1,"path":"objects/obj_door_parent/obj_door_parent.yy",},
     {"name":"obj_npc_door","order":4,"path":"objects/obj_npc_door/obj_npc_door.yy",},
     {"name":"obj_npc_flying_fish","order":1,"path":"objects/obj_npc_flying_fish/obj_npc_flying_fish.yy",},
     {"name":"obj_npc_turtle","order":2,"path":"objects/obj_npc_turtle/obj_npc_turtle.yy",},
     {"name":"obj_plastic","order":3,"path":"objects/obj_plastic/obj_plastic.yy",},
-    {"name":"obj_room_transition","order":6,"path":"objects/obj_room_transition/obj_room_transition.yy",},
+    {"name":"obj_respawn_controller","order":2,"path":"objects/obj_respawn_controller/obj_respawn_controller.yy",},
     {"name":"obj_sign","order":2,"path":"objects/obj_sign/obj_sign.yy",},
     {"name":"rm_crab_house","order":2,"path":"rooms/rm_crab_house/rm_crab_house.yy",},
     {"name":"rm_mushroom_fields","order":4,"path":"rooms/rm_mushroom_fields/rm_mushroom_fields.yy",},

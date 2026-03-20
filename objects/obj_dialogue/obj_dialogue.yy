@@ -10,8 +10,8 @@
   "name":"obj_dialogue",
   "overriddenProperties":[],
   "parent":{
-    "name":"npcs",
-    "path":"folders/Objects/npcs.yy",
+    "name":"controller objects",
+    "path":"folders/Objects/controller objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

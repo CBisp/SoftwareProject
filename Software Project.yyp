@@ -12,6 +12,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"controller objects","folderPath":"folders/Objects/controller objects.yy","name":"controller objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"npcs","folderPath":"folders/Objects/npcs.yy","name":"npcs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"world objects","folderPath":"folders/Objects/world objects.yy","name":"world objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -42,6 +43,7 @@
     {"id":{"name":"obj_npc_turtle","path":"objects/obj_npc_turtle/obj_npc_turtle.yy",},},
     {"id":{"name":"obj_plastic","path":"objects/obj_plastic/obj_plastic.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_respawn_controller","path":"objects/obj_respawn_controller/obj_respawn_controller.yy",},},
     {"id":{"name":"obj_room_transition","path":"objects/obj_room_transition/obj_room_transition.yy",},},
     {"id":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},},
     {"id":{"name":"rm_crab_house","path":"rooms/rm_crab_house/rm_crab_house.yy",},},

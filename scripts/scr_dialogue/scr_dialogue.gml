@@ -58,6 +58,21 @@ sign1 = [
     }
 ]
 
+noticePlastic = [
+    {
+        name: "Crab",
+        msg: "Huh, that's weird... I don't remember there being any plastic down here"
+    },
+    {
+        name: "Crab",
+        msg: "That's supposed to stay above the surface! What's it doing down here?"
+    },
+    {
+        name: "Crab",
+        msg: "I should try to clear it up while it's here, someone could get hurt otherwise"
+    }
+]
+
 doorLocked1 = [
     {
         name: "Locked Door",

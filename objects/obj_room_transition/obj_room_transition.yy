@@ -11,8 +11,8 @@
   "name":"obj_room_transition",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"controller objects",
+    "path":"folders/Objects/controller objects.yy",
   },
   "parentObjectId":null,
   "persistent":true,
