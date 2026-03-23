@@ -1,4 +1,4 @@
-var _dx = gui_w/3;
+var _dx = gui_w/5;
 var _dy = gui_h * 0.1;
 var _boxw = gui_w;
 var _boxh = gui_h - _dy * 7;
@@ -14,4 +14,4 @@ draw_text(_dx, _dy, _name);
 
 _dy += 40;
 
-draw_text_ext(_dx, _dy, draw_message, -1, _boxw); 
+draw_text_ext(_dx, _dy, draw_message, -1, _boxw - 16); 

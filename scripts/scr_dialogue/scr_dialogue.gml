@@ -36,20 +36,56 @@ test_dialogue = [
     }
 ]
 
-turtle_dialogue = [
+turtleDialogue1 = [
     {
        name: "Crab",
-       msg: "Woah, you're a turtle?" 
+       msg: "Hi Turtle!" 
     },
     {
         name: "Turtle",
-        msg: "Yessir and an awesome one at that"
+        msg: "CRAB!! THANK THE SKIES YOU'RE HERE!! IT'S A MINEFIELD OUT HERE!!"
     },
     {
         name:"Crab",
-        msg: "Golly gosh sir that's incredible"
-    }
+        msg: "Woah woah woah, calm down! What's the matt-"
+    },
+    {
+        name:"Turtle",
+        msg: "WHAT'S THE MATTER? LOOK AROUND YOU!"
+    },
+    {
+        name:"Turtle",
+        msg: "Sorry, I haven't eaten in a couple days. I keep thinking I see my favourite food, jellyfish"
+    },
+    {
+        name:"Turtle",
+        msg:"But when I go to have a bite, it tastes all rough and plasticy. You know why?"
+    },
+    {
+        name: "Crab",
+        msg: "Because it's plast-"
+    },
+    {
+        name:"Turtle",
+        msg: "BECAUSE IT'S PLASTIC!!!!"
+    },
 ]
+
+if(instance_exists(obj_player)){
+    turtleDialogue2 = [
+        {
+           name: "Turtle", 
+           msg: string_concat("There are still", string(16 - obj_player.mushroom_fields_plastic), "bits of plastic around!") 
+        }
+    ]
+} else {
+    turtleDialogue2 = [
+        {
+            name: "Me",
+            msg: "You're not supposed to see this. Get out of here"
+        }
+    ]
+}
 
 sign1 = [
     {
@@ -117,6 +153,6 @@ signMushroomFields = [
 crabThoughtHouse = [
     {
         name: "Crab",
-        msg: "Ah, what a beautiful day. I should go and visit my friends in the coral reef"
+        msg: "Ah, what a beautiful day. I should go and visit my friends in the coral reef (Press Z to continue Dialogue)"
     }
 ]

@@ -13,6 +13,7 @@
     {"name":"inst_3B42AC93","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_17607DD1","path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"inst_3048DD39","path":"rooms/rm_tutorial/rm_tutorial.yy",},
+    {"name":"inst_7A926CD2","path":"rooms/rm_tutorial/rm_tutorial.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -24,7 +25,7 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":464.0,},
         {"$GMRInstance":"v4","%Name":"inst_7E86C43C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7E86C43C","objectId":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"dialogue","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.sign1",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":122.0,"y":488.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":110.0,"y":488.0,},
         {"$GMRInstance":"v4","%Name":"inst_19136C4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_19136C4","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door_parent","path":"objects/obj_door_parent/obj_door_parent.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_door_parent/obj_door_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_reef",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door_parent","path":"objects/obj_door_parent/obj_door_parent.yy",},"propertyId":{"name":"targetX","path":"objects/obj_door_parent/obj_door_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"48",},
@@ -36,6 +37,10 @@
         {"$GMRInstance":"v4","%Name":"inst_3048DD39","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3048DD39","objectId":{"name":"obj_dialogue_trigger","path":"objects/obj_dialogue_trigger/obj_dialogue_trigger.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogue_trigger","path":"objects/obj_dialogue_trigger/obj_dialogue_trigger.yy",},"propertyId":{"name":"dialogue","path":"objects/obj_dialogue_trigger/obj_dialogue_trigger.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.noticePlastic",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":2.75,"x":192.0,"y":416.0,},
+        {"$GMRInstance":"v4","%Name":"inst_7A926CD2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7A926CD2","objectId":{"name":"obj_respawn_controller","path":"objects/obj_respawn_controller/obj_respawn_controller.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_respawn_controller","path":"objects/obj_respawn_controller/obj_respawn_controller.yy",},"propertyId":{"name":"respawn_x","path":"objects/obj_respawn_controller/obj_respawn_controller.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"656",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_respawn_controller","path":"objects/obj_respawn_controller/obj_respawn_controller.yy",},"propertyId":{"name":"respawn_y","path":"objects/obj_respawn_controller/obj_respawn_controller.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"407",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":1.0,"x":688.0,"y":512.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"collisionTiles","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"collisionTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":32,"SerialiseWidth":64,"TileCompressedData":[
           -63,-2147483648,1,35,-63,-2147483648,1,35,-63,-2147483648,1,35,-63,-2147483648,1,35,-63,-2147483648,

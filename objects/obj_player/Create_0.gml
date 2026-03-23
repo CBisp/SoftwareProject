@@ -5,8 +5,12 @@ yGravity = 0.3;
 talking = false;
 
 points = 0;
+plastic = 0;
+mushroom_fields_plastic = 0;
 
 name = "crab"
+
+objectives = [];
 
 depth = -1;
 persistent = true;
