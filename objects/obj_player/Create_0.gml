@@ -12,6 +12,8 @@ name = "crab"
 
 objectives = [];
 
+friends = [];
+
 depth = -1;
 persistent = true;
 

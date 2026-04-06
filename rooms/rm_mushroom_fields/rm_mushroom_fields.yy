@@ -26,7 +26,6 @@
     {"name":"inst_BB37FD2","path":"rooms/rm_mushroom_fields/rm_mushroom_fields.yy",},
     {"name":"inst_77970B02","path":"rooms/rm_mushroom_fields/rm_mushroom_fields.yy",},
     {"name":"inst_37856243","path":"rooms/rm_mushroom_fields/rm_mushroom_fields.yy",},
-    {"name":"inst_69B05B72","path":"rooms/rm_mushroom_fields/rm_mushroom_fields.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -56,9 +55,6 @@
         {"$GMRInstance":"v4","%Name":"inst_BB37FD2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_BB37FD2","objectId":{"name":"obj_plastic","path":"objects/obj_plastic/obj_plastic.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":592.0,"y":400.0,},
         {"$GMRInstance":"v4","%Name":"inst_77970B02","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_77970B02","objectId":{"name":"obj_plastic","path":"objects/obj_plastic/obj_plastic.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":848.0,"y":208.0,},
         {"$GMRInstance":"v4","%Name":"inst_37856243","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37856243","objectId":{"name":"obj_plastic","path":"objects/obj_plastic/obj_plastic.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":240.0,},
-        {"$GMRInstance":"v4","%Name":"inst_69B05B72","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_69B05B72","objectId":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"dialogue","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.test_dialogue",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":104.0,"y":456.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"collisionTiles","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"collisionTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":32,"SerialiseWidth":64,"TileCompressedData":[
           -386,-2147483648,5,51,52,53,54,55,-131,-2147483648,5,51,52,53,54,55,-77,-2147483648,5,51,52,53,54,55,

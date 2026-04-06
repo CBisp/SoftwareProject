@@ -43,7 +43,7 @@ turtleDialogue1 = [
     },
     {
         name: "Turtle",
-        msg: "CRAB!! THANK THE SKIES YOU'RE HERE!! IT'S A MINEFIELD OUT HERE!!"
+        msg: "CRAB!! THANK THE SEAS YOU'RE HERE!! IT'S A MINEFIELD OUT HERE!!"
     },
     {
         name:"Crab",
@@ -69,23 +69,63 @@ turtleDialogue1 = [
         name:"Turtle",
         msg: "BECAUSE IT'S PLASTIC!!!!"
     },
+    {
+        name: "Crab",
+        msg: "Oh no that sounds annoying, is there anything I can do to help?"
+    },
+    {
+        name: "Turtle",
+        msg: "You wouldn't be able to collect the pieces of plastic would you?"
+    },
+    {
+        name: "Crab",
+        msg: "Sure thing! Sit tight"
+    }
 ]
 
-if(instance_exists(obj_player)){
-    turtleDialogue2 = [
-        {
-           name: "Turtle", 
-           msg: string_concat("There are still", string(16 - obj_player.mushroom_fields_plastic), "bits of plastic around!") 
-        }
-    ]
-} else {
-    turtleDialogue2 = [
-        {
-            name: "Me",
-            msg: "You're not supposed to see this. Get out of here"
-        }
-    ]
-}
+turtleDialogue2 = [
+    {   
+        name: "Turtle", 
+        msg: string_concat("There are still some pieces of plastic around, please help!") 
+    }
+]
+
+turtleDialogue3 = [
+    {
+        name: "Crab",
+        msg: "Ok turtle, it's done. All the plastic in this room is gone now!"
+    },
+    {
+        name: "Turtle",
+        msg: "OH THANK THE SEAS! That's so great, thank you Crab!"
+    },
+    {
+        name: "Crab",
+        msg: "You're very welcome! What will you do now?"
+    },
+    {
+        name: "Turtle",
+        msg: "I think I might head to the Coral Reef"
+    },
+    {
+        name: "Crab",
+        msg: "Bad news: the reef is closed because of how much plastic there is."
+    },
+    {
+        name: "Turtle",
+        msg: "Uh oh, that's not very good at all. What can we do?"
+    },
+    {
+        name: "Crab",
+        msg: "We have to help out and clear more of it up! Will you help me?"
+    },
+    {
+        name: "Turtle",
+        msg: "Of course! Let's go!"
+    }
+]
+
+
 
 sign1 = [
     {
@@ -154,5 +194,9 @@ crabThoughtHouse = [
     {
         name: "Crab",
         msg: "Ah, what a beautiful day. I should go and visit my friends in the coral reef (Press Z to continue Dialogue)"
+    },
+    {
+        name: "Crab",
+        msg: "Time to leave the house! (Press the Up Arrow when near an object to interact with it)"
     }
 ]
