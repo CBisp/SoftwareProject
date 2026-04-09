@@ -1,11 +1,11 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_npc_turtle",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":31,
   "bbox_left":0,
   "bbox_right":29,
-  "bbox_top":8,
+  "bbox_top":17,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
