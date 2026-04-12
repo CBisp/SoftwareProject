@@ -125,6 +125,25 @@ turtleDialogue3 = [
     }
 ]
 
+twoTurtles = [
+    {
+        name: "Crab",
+        msg: "Wait, how are there two of you?"
+    },
+    {
+        name: "Turtle",
+        msg: "There aren't. I'm just moving really really fast"
+    },
+    {
+        name: "Crab",
+        msg: "Aren't you... You know what? Nevermind, thank you for your help."
+    },
+    {
+        name: "Turtle",
+        msg: "Mhm, that's what I thought" 
+    }
+]
+
 
 
 sign1 = [

@@ -1,1 +1,2 @@
 turtleReady = false;
+turtleTalkedTo = false;

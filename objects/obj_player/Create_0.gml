@@ -6,13 +6,13 @@ talking = false;
 
 points = 0;
 plastic = 0;
-mushroom_fields_plastic = 0;
 
 name = "crab"
 
-objectives = [];
+toDoList = [0];
+doneList = [];
 
-friends = [];
+friends = ["turtle"];
 
 depth = -1;
 persistent = true;

@@ -3,3 +3,4 @@ function room_warp(_targetRoom, _targetX, _targetY){
     obj_player.x = _targetX;
     obj_player.y = _targetY;
 }
+
