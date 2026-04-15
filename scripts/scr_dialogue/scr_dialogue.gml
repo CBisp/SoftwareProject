@@ -125,6 +125,80 @@ turtleDialogue3 = [
     }
 ]
 
+flyingDialogue1 = [
+    {
+        name: "Flying Fish",
+        msg: "You there! Come hither!"
+    },
+    {
+        name: "Crab",
+        msg: "Who me?"
+    },
+    {
+        name: "Flying Fish",
+        msg: "Yes you! Can't you see how much plastic there is around here? This simply won't do"
+    },
+    {
+        name: "Crab",
+        msg: "I know, it's annoying but I'm working on it-"
+    },
+    {
+        name: "Flying Fish",
+        msg: "Do something about it won't you?"
+    },
+    {
+        name: "Crab",
+        msg: "Ok, I'll see to it!"
+    },
+    {
+        name: "Crab",
+        msg: "(A please wouldn't hurt next time...)"
+    },
+    {
+        name: "Flying Fish",
+        msg: "What was that???"
+    },
+    {
+        name: "Crab",
+        msg: "Nothing! On it!"
+    }
+]
+
+flyingDialogue2 = [
+    {
+        name: "Crab",
+        msg: "Ok, that's all the plastic-" 
+    },
+    {
+        name: "Flying Fish",
+        msg: "You there! Has all the plastic been taken care of?"
+    },
+    {
+        name: "Crab",
+        msg: "...."
+    },
+    {
+        name: "Crab",
+        msg: "Yes, it is"
+    },
+    {
+        name: "Flying Fish",
+        msg: "Aha, wonderful. I'm off to reopen the luxurious coral reef!"
+    },
+    {
+        name: "Crab",
+        msg: "Oh really? That's wonderful! Thank you so-"
+    },
+    {
+        name: "Flying Fish",
+        msg: "Why are you still here? Can't you see I have work to do?"
+    },
+    {
+        name: "Crab",
+        msg: "Ok, I'll see you around I suppose"
+    }
+]
+
 twoTurtles = [
     {
         name: "Crab",
@@ -209,6 +283,24 @@ signMushroomFields = [
     }
 ]
 
+promisingSign = [
+    {
+        name: "Promising Sign",
+        msg: "Congratulations! You found the secret hidden ray tracing!"
+    },
+    {
+        name: "Promising Sign",
+        msg: "Step through the door to claim your prize!"
+    }
+]
+
+apologeticSign = [
+    {
+        name: "Unapologetic Sign",
+        msg: "I'm not sorry"   
+    }
+]
+
 crabThoughtHouse = [
     {
         name: "Crab",
@@ -217,5 +309,42 @@ crabThoughtHouse = [
     {
         name: "Crab",
         msg: "Time to leave the house! (Press the Up Arrow when near an object to interact with it)"
+    }
+]
+
+reefTurtle = [
+    {
+        name: "Crab",
+        msg: "Turtle! Glad you could make it!"
+    },
+    {
+        name: "Turtle",
+        msg: "Crab! Great to see you! We make a pretty good team huh?"
+    },
+    {
+        name: "Crab",
+        msg: "We sure do! Have a great day!"
+    }
+]
+
+flyingReef = [
+    {
+        name: "Crab",
+        msg: "Hey flying fish! How are we-"
+    },
+    {
+        name: "Flying Fish",
+        msg: "Crab, must you really talk to me now? I'm taking care of business"
+    },
+    {
+        name: "Crab",
+        msg: "You're right, talk to you later"
+    }
+]
+
+congratulatorySign = [
+    {
+        name: "Congratulatory Sign",
+        msg: "Congratulations! Thank you for playing my short little game"  
     }
 ]

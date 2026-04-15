@@ -12,7 +12,7 @@ name = "crab"
 toDoList = [0];
 doneList = [];
 
-friends = ["turtle"];
+friends = [];
 
 depth = -1;
 persistent = true;

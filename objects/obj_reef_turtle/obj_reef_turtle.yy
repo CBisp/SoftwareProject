@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc_flying_fish",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_reef_turtle",
+  "eventList":[],
   "managed":true,
-  "name":"obj_npc_flying_fish",
+  "name":"obj_reef_turtle",
   "overriddenProperties":[],
   "parent":{
     "name":"npcs",
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc_flying_fish",
-    "path":"sprites/spr_npc_flying_fish/spr_npc_flying_fish.yy",
+    "name":"spr_npc_turtle",
+    "path":"sprites/spr_npc_turtle/spr_npc_turtle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
