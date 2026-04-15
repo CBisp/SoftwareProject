@@ -1,7 +1,7 @@
 xDistance = finishX - startX;
 yDistance = finishY - startY;
 
-totalFrames = travelSpeed * 60;
+totalFrames = travelSpeed * 30;
 
 xSpeed = xDistance/totalFrames;
 ySpeed = yDistance/totalFrames;
