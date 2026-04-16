@@ -17,7 +17,6 @@ if (distance_to_object(obj_player) < 10 && obj_player.state == "grounded"){
                 ]
             }   
         } else {
-            array_push(obj_player.toDoList, 0)
             turtleTalkedTo = true;
         }
         create_dialogue(dialogue)

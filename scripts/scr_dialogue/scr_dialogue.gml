@@ -199,6 +199,13 @@ flyingDialogue2 = [
     }
 ]
 
+turtleTutorial = [
+    {
+        name: "Turtle",
+        msg: "Crab! Hop on my back and I'll take you where you need to go!"
+    }
+]
+
 twoTurtles = [
     {
         name: "Crab",
@@ -308,6 +315,10 @@ crabThoughtHouse = [
     },
     {
         name: "Crab",
+        msg: "It'd be good to stretch my legs (using the left and right arrow keys) and jump around (using the spacebar)"  
+    },
+    {
+        name: "Crab",
         msg: "Time to leave the house! (Press the Up Arrow when near an object to interact with it)"
     }
 ]
@@ -345,6 +356,6 @@ flyingReef = [
 congratulatorySign = [
     {
         name: "Congratulatory Sign",
-        msg: "Congratulations! Thank you for playing my short little game"  
+        msg: "Congratulations! Thank you for playing my short little game :)"  
     }
 ]
